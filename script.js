@@ -1,7 +1,7 @@
 document.getElementById("submit").addEventListener("click", function () {
     const passcode = document.getElementById("passcode").value;
     const accessGrantedAudio = new Audio("accessgranted.mp3");
-    const accessDeniedAudio = new Audio("C:\\Users\\nitis\\Desktop\\MissionSpectrumWebsite\\accessdenied.mp3");
+    const accessDeniedAudio = new Audio("accessdenied.mp3");
     const validPasscodes = ["wx3nf0", "ax3p6h", "1zp5qm", "ld1k0o", "k0m1sv"]; // Replace with your valid passcodes
     const maxAttempts = 3;
     let attempts = parseInt(localStorage.getItem("attempts") || "0");
