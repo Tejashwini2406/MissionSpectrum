@@ -1,0 +1,63 @@
+/* Background for the entire page */
+body {
+    background-image: url("C:\\Users\\nitis\\Desktop\\MissionSpectrumWebsite\\bg.jpg"); /* Replace with your image file name */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff; /* Text color for readability */
+    font-family: 'Courier New', Courier, monospace; /* Spy-like font */
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Ensure full-page height */
+}
+
+/* Centering buttons and input fields */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Header Styling */
+h1 {
+    font-size: 36px;
+    color: #145409; /* Neon green text */
+    text-shadow: 0 0 10px #0f0; /* Glowing effect */
+    margin-bottom: 30px;
+}
+
+/* Input field styling */
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #0f0;
+    border-radius: 8px;
+    background-color: #222;
+    color: #0f0;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Button styles */
+button {
+    background-color: #222; /* Dark background for buttons */
+    color: #0f0; /* Neon green text */
+    border: 2px solid #0f0; /* Neon green border */
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth hover effect */
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 0 0 5px #0f0; /* Glowing text effect */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0f0; /* Neon green background */
+    color: #222; /* Dark text on hover */
+    text-shadow: none; /* Remove glow on hover */
+}
